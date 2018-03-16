@@ -1,0 +1,2 @@
+class Myspace < ApplicationRecord
+end
