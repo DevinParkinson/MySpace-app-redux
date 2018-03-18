@@ -8,4 +8,6 @@
   Myspace.create(name: name, post: post, age: age, occupation: occupation, location: location, avatar: avatar)
 end
 
+
+
 puts "seeded"

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :myspaces, only: [:index, :update]
     get 'my_friends', to: 'myspaces#my_friends'
+    resources :mes
   end
 
   #Do not place any routes below this one
